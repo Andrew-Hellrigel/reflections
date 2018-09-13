@@ -1,3 +1,14 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It gives an intermediate step to make sure you have everything you need before you make your commit
 
+How can you use the staging area to make sure you have one commit per logical change?
+you can use the staging area along with git diff and git diff --staged to keep track of exactly what changes you are making
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if you want to add a different version to something, or make a change that you are worried might break something
+
+How do the diagrams help you visualize the branch structure?
+They are helpful because the branch structure itself can get complex quickly so a diagram helps you to trace which commits can be seen based on where you are at in that branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The automatic merging is definitely faster and more efficient than manually merging and most of the time it will work if the two things being merged are unrelated but you could accidently merge a change you didn't realize was there and not understand why your code is doing a certain thing.
