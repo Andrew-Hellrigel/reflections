@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A remote repository allows you to work on the same project with different computers and it keeps your project saved so that if something were to happen to your computer, then you wouldn't lose all of your data.
