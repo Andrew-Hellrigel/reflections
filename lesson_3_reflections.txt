@@ -6,3 +6,12 @@ If Git were to automatically stay up to date, then whenever a change was made on
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are used when someone else has a repository that you want to make changes too, but don't want it on their repository. Clone is used when you want a copy of a repository that is linked to the gitHub repository and branch is used when you have a repository but want to add a different feature or change to that repository that you don't want to affect the master branch of that repository immedietly.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Then you can know what version of your code is uploaded online even if you aren't online.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You would have to email files back and forth letting the person know exactly what you changed and this would be harder and more error prone.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You would want to make changes in a separate branch because if you change something in master it might break whatever is in master which could be bad. It is also easier for other people to see what you have changed without changing the "official" code. It sometimes makes sense to update things if master if either you are the only person working on a project or you know your change is good because it is much quicker and easier just to update the master branch of your project.
